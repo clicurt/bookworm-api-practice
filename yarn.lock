@@ -54,6 +54,40 @@
     lodash "^4.2.0"
     to-fast-properties "^2.0.0"
 
+"@types/bcrypt@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@types/bcrypt/-/bcrypt-2.0.0.tgz#74cccef82026341fd786cf2eb9c912c7f9107c55"
+
+"@types/bson@*":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/bson/-/bson-4.0.3.tgz#30889d2ffde6262abbe38659364c631454999fbf"
+  dependencies:
+    "@types/node" "*"
+
+"@types/dotenv@^4.0.3":
+  version "4.0.3"
+  resolved "https://registry.yarnpkg.com/@types/dotenv/-/dotenv-4.0.3.tgz#ebcfc40da7bc0728b705945b7db48485ec5b4b67"
+  dependencies:
+    "@types/node" "*"
+
+"@types/mongodb@*":
+  version "3.6.12"
+  resolved "https://registry.yarnpkg.com/@types/mongodb/-/mongodb-3.6.12.tgz#727960d34f35054d2f2ce68909e16094f742d935"
+  dependencies:
+    "@types/bson" "*"
+    "@types/node" "*"
+
+"@types/mongoose@^5.0.16":
+  version "5.10.5"
+  resolved "https://registry.yarnpkg.com/@types/mongoose/-/mongoose-5.10.5.tgz#0f4fb0440e8cf0213caec1e5c7b163dbd9847c56"
+  dependencies:
+    "@types/mongodb" "*"
+    "@types/node" "*"
+
+"@types/node@*":
+  version "15.0.2"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-15.0.2.tgz#51e9c0920d1b45936ea04341aa3e2e58d339fb67"
+
 abbrev@1:
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -2101,8 +2135,8 @@ home-or-tmp@^2.0.0:
     os-tmpdir "^1.0.1"
 
 hosted-git-info@^2.1.4:
-  version "2.5.0"
-  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.5.0.tgz#6d60e34b3abbc8313062c3b798ef8d901a07af3c"
+  version "2.8.9"
+  resolved "https://registry.yarnpkg.com/hosted-git-info/-/hosted-git-info-2.8.9.tgz#dffc0bf9a21c02209090f2aa69429e1414daf3f9"
 
 http-errors@1.6.2, http-errors@~1.6.2:
   version "1.6.2"
